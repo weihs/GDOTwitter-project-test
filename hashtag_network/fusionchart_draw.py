@@ -21,6 +21,7 @@ d['subcaption']='first try'
 d['xAxisName']='date'
 d['yAxisName']='frequency'
 d['theme']='fint'
+d['showValues']='0'
 frequency['chart']=copy.deepcopy(d)
 
 dist=[]
@@ -28,8 +29,8 @@ d={}
 for i in range(timeinterval_number):#build the data for chart (category part)
     d['label']=str(start_time+datetime.timedelta(days=i))
     dist.append(copy.deepcopy(d))
-temp={}
-temp['category']=copy.deepcopy(dist)
+temp=[{}]
+temp[0]['category']=copy.deepcopy(dist)
 frequency['categories']=copy.deepcopy(temp)
 
 dist=[]
@@ -39,12 +40,12 @@ for i in range(hashtag_number):#build the data for chart (value part)
     dist2=[]
     d2={}
     for j in range(timeinterval_number):
-        d2['value']=matrix[j*hashtag_number+i][j*hashtag_number+i]
+        d2['value']=np.log2(matrix[j*hashtag_number+i][j*hashtag_number+i]+0.01)
         dist2.append(copy.deepcopy(d2))
     d['data']=copy.deepcopy(dist2)
     dist.append(copy.deepcopy(d))
 frequency['dataset']=copy.deepcopy(dist)
 
 
-with open('data.json','w') as f:
+with open('data100.json','w') as f:
     json.dump(frequency,f)

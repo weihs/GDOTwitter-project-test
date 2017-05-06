@@ -1,0 +1,64 @@
+{
+    "chart": {
+        "caption": "hashtag line graph",
+        "theme": "fint",
+        "subcaption": "first try",
+        "yAxisName": "frequency",
+        "xAxisName": "date"
+    },
+    "categories": [
+        {
+        "category": [
+        {
+            "label": "2016-05-26 00:00:00"
+        },
+        {
+            "label": "2016-05-27 00:00:00"
+        },
+        {
+            "label": "2016-05-28 00:00:00"
+        },
+        {
+            "label": "2016-05-29 00:00:00"
+        },
+        {
+            "label": "2016-05-30 00:00:00"
+        },
+        {
+            "label": "2016-05-31 00:00:00"
+        },
+        {
+            "label": "2016-06-01 00:00:00"
+        },
+        {
+            "label": "2016-06-02 00:00:00"
+        },
+        {
+            "label": "2016-06-03 00:00:00"
+        },
+        {
+            "label": "2016-06-04 00:00:00"
+        }
+    ]
+    }
+], 
+        "dataset": [
+            {
+                "seriesname": "brexit",
+                "data": [
+                    {"value": 8508.0},
+                    {"value": 7870.0},
+                    {"value": 7297.0},
+                    {"value": 7454.0},
+                    {"value": 10313.0},
+                    {"value": 9637.0},
+                    {"value": 13818.0},
+                    {"value": 12192.0},
+                    {"value": 10812.0},
+                    {"value": 12479.0}
+                    ]
+            },
+            {
+                "seriesname": "yes2eu",
+                 "data": [
+                     {"value": 0.0}, {"value": 0.0}, {"value": 37.0}, {"value": 27.0}, {"value": 34.0}, {"value": 228.0}, {"value": 68.0}, {"value": 40.0}, {"value": 49.0}, {"value": 34.0}]}, {"seriesname": "yestoeu", "data": [{"value": 3.0}, {"value": 6.0}, {"value": 3.0}, {"value": 3.0}, {"value": 19.0}, {"value": 100.0}, {"value": 5.0}, {"value": 5.0}, {"value": 42.0}, {"value": 32.0}]}, {"seriesname": "bettero\u000en", "data": [{"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}]}, {"seriesname": "votein", "data": [{"value": 975.0}, {"value": 1261.0}, {"value": 569.0}, {"value": 354.0}, {"value": 369.0}, {"value": 363.0}, {"value": 249.0}, {"value": 390.0}, {"value": 350.0}, {"value": 388.0}]}, {"seriesname": "ukineu", "data": [{"value": 4.0}, {"value": 20.0}, {"value": 28.0}, {"value": 10.0}, {"value": 13.0}, {"value": 117.0}, {"value": 32.0}, {"value": 11.0}, {"value": 22.0}, {"value": 70.0}]}, {"seriesname": "bremain", "data": [{"value": 530.0}, {"value": 166.0}, {"value": 154.0}, {"value": 183.0}, {"value": 438.0}, {"value": 227.0}, {"value": 254.0}, {"value": 137.0}, {"value": 140.0}, {"value": 218.0}]}, {"seriesname": "strongerin", "data": [{"value": 1032.0}, {"value": 1232.0}, {"value": 947.0}, {"value": 1342.0}, {"value": 1387.0}, {"value": 948.0}, {"value": 1261.0}, {"value": 1198.0}, {"value": 1311.0}, {"value": 2514.0}]}, {"seriesname": "leadnotleave", "data": [{"value": 0.0}, {"value": 2.0}, {"value": 4.0}, {"value": 0.0}, {"value": 4.0}, {"value": 37.0}, {"value": 3.0}, {"value": 54.0}, {"value": 102.0}, {"value": 72.0}]}, {"seriesname": "voteremain", "data": [{"value": 138.0}, {"value": 130.0}, {"value": 81.0}, {"value": 213.0}, {"value": 333.0}, {"value": 755.0}, {"value": 465.0}, {"value": 478.0}, {"value": 397.0}, {"value": 560.0}]}, {"seriesname": "no2eu", "data": [{"value": 123.0}, {"value": 57.0}, {"value": 80.0}, {"value": 100.0}, {"value": 55.0}, {"value": 56.0}, {"value": 181.0}, {"value": 77.0}, {"value": 88.0}, {"value": 31.0}]}, {"seriesname": "notoeu", "data": [{"value": 77.0}, {"value": 10.0}, {"value": 6.0}, {"value": 28.0}, {"value": 9.0}, {"value": 1.0}, {"value": 14.0}, {"value": 11.0}, {"value": 25.0}, {"value": 10.0}]}, {"seriesname": "bettero\u000bout", "data": [{"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}]}, {"seriesname": "voteout", "data": [{"value": 109.0}, {"value": 146.0}, {"value": 192.0}, {"value": 50.0}, {"value": 99.0}, {"value": 38.0}, {"value": 84.0}, {"value": 85.0}, {"value": 103.0}, {"value": 71.0}]}, {"seriesname": "eureform", "data": [{"value": 39.0}, {"value": 0.0}, {"value": 0.0}, {"value": 2.0}, {"value": 7.0}, {"value": 0.0}, {"value": 7.0}, {"value": 8.0}, {"value": 16.0}, {"value": 4.0}]}, {"seriesname": "britainout", "data": [{"value": 96.0}, {"value": 36.0}, {"value": 38.0}, {"value": 55.0}, {"value": 47.0}, {"value": 16.0}, {"value": 63.0}, {"value": 15.0}, {"value": 79.0}, {"value": 45.0}]}, {"seriesname": "leaveeu", "data": [{"value": 312.0}, {"value": 435.0}, {"value": 327.0}, {"value": 295.0}, {"value": 465.0}, {"value": 539.0}, {"value": 527.0}, {"value": 197.0}, {"value": 369.0}, {"value": 367.0}]}, {"seriesname": "voteleave", "data": [{"value": 2649.0}, {"value": 2738.0}, {"value": 2630.0}, {"value": 2624.0}, {"value": 3383.0}, {"value": 3104.0}, {"value": 4039.0}, {"value": 4462.0}, {"value": 3834.0}, {"value": 3756.0}]}, {"seriesname": "beleave", "data": [{"value": 17.0}, {"value": 13.0}, {"value": 0.0}, {"value": 18.0}, {"value": 16.0}, {"value": 0.0}, {"value": 10.0}, {"value": 18.0}, {"value": 13.0}, {"value": 28.0}]}, {"seriesname": "loveeuropeleaveeu", "data": [{"value": 2.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 1.0}, {"value": 0.0}, {"value": 2.0}, {"value": 2.0}, {"value": 4.0}, {"value": 0.0}]}, {"seriesname": "leaveeu", "data": [{"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}, {"value": 0.0}]}]}

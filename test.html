@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>My first chart using FusionCharts Suite XT</title>
+<script type="text/javascript" src="fusioncharts/js/fusioncharts.js"></script>
+<script type="text/javascript" src="fusioncharts/js/themes/fusioncharts.theme.fint.js"></script>
+<script type="text/javascript">
+  FusionCharts.ready(function(){
+    var revenueChart = new FusionCharts({
+        "type": "msline",
+        "renderAt": "chartContainer",
+        "width": "1500",
+        "height": "800",
+        "dataFormat": "jsonurl",
+        "dataSource": "hashtag_network/data100.json"
+
+  });
+revenueChart.render();
+})
+</script>
+</head>
+<body>
+  <div id="chartContainer">FusionCharts XT will load here!</div>
+</body>
+</html>

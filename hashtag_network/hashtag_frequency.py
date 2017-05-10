@@ -9,14 +9,14 @@ from hashtag import * #the hashtags we want to retrive
 hashtag_number=21
 timeinterval_number=10
 interval_day=1
-start_time=datetime.datetime(2016, 5, 26, 0)
-end_time=start_time+datetime.timedelta(days=10)
+start_time=datetime.datetime(2016, 5, 1, 0)
+end_time=start_time+datetime.timedelta(days=60)
 co_occurrence_matrix=np.zeros((hashtag_number,hashtag_number))
 
 client=MongoClient('146.169.33.33',27020)#build a connection to MongoDB
 database=client.get_database('Twitter_DATA')
 database.authenticate('twitterApplication','gdotwitter')
-collection=database.GNIP_50000_sample_users_above150twts
+collection=database.Twitter_Brexit_GNIP
 
 taglist=[]
 cursor=collection.aggregate(
@@ -31,5 +31,5 @@ cursor=collection.aggregate(
 
 for record in cursor:
     taglist.append(record)
-with open('hashtag_frequency.json', mode='w') as f:
+with open('GNIP_hashtag_frequency.json', mode='w') as f:
     json.dump(taglist,f)

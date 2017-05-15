@@ -5,10 +5,10 @@ import datetime
 from pprint import *
 from hashtag import * #the hashtags we want to retrive
 
-hashtag_number=21
-timeinterval_number=10
+hashtag_number=20
+timeinterval_number=60
 interval_day=1
-start_time=datetime.datetime(2016, 5, 26, 12, minute=12, second=0, microsecond=0)
+start_time=datetime.datetime(2016, 5,1)
 co_occurrence_matrix=np.zeros((hashtag_number,hashtag_number))
 
 client=MongoClient('146.169.33.33',27020)#build a connection to MongoDB

@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>My first chart using FusionCharts Suite XT</title>
+<script type="text/javascript" src="fusioncharts/js/fusioncharts.js"></script>
+<script type="text/javascript" src="fusioncharts/js/themes/fusioncharts.theme.fint.js"></script>
+<script type="text/javascript">
+FusionCharts['debugger'].outputTo(function (id, sender,
+    eventName, eventArgs) {
+    console.log(id + ': '+eventName + ' from ' + sender, eventArgs);
+});
+FusionCharts['debugger'].outputFormat('verbose');
+FusionCharts['debugger'].enable(true);
+</script>
+<script type="text/javascript">
+  FusionCharts.ready(function(){
+    var revenueChart = new FusionCharts({
+        "type": "msline",
+        "renderAt": "chartContainer",
+        "width": "1500",
+        "height": "800",
+        "dataFormat": "jsonurl",
+        "dataSource": "http://localhost:8000/data100.json"
+
+  }).render();
+
+  var reChart = new FusionCharts({
+      "type": "pie2d",
+      "renderAt": "chartContainer2",
+      "width": "1500",
+      "height": "800",
+      "dataFormat": "jsonurl",
+      "dataSource": "file:///D:/project-test/hashtag_network/top20_hashtag_frequency.json"
+
+  }).render();
+
+
+})
+</script>
+
+</head>
+<body>
+  <div id="chartContainer">FusionCharts XT will load here!</div>
+  <div id="chartContainer2">FusionCharts XT will load here!</div>
+</body>
+</html>

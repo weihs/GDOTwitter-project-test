@@ -1,0 +1,20 @@
+{
+    "neutral":
+    [
+        "Brexit","EUref","btexit","EURef","EUreferendum","EU","BREXIT", "euref",
+        "EURefResults","EURO2016","InOrOut","referendum","EUReferendum","BrexitVote",
+        "Euref","BrexitOrNot","EuRef","brexit",""
+    ],
+    "leave":
+    [
+        "VoteLeave","LeaveEU","voteleave","Leave","leave"
+    ],
+    "remain":
+    [
+        "Remain","VoteRemain","remain","StrongerIN","strongerin","StrongerIn"
+    ],
+    "topic":
+    [
+
+    ]
+}

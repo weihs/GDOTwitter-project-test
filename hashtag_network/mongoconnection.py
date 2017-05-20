@@ -25,7 +25,7 @@ def merge_cooccurrence_matrix(number=50,
         else:
             combine_matrix=linalg.block_diag(combine_matrix,np.load(filename))
     result_file=result_directory+result_filename
-    np.save('data/npy/combine_matrix.npy',combine_matrix)
+    np.save(result_file,combine_matrix)
 
 client=MongoClient('146.169.33.33',27020)#build a connection to MongoDB
 database=client.get_database('Twitter_DATA')

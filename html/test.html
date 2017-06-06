@@ -14,22 +14,22 @@ FusionCharts['debugger'].enable(true);
 <script type="text/javascript">
   FusionCharts.ready(function(){
     var revenueChart = new FusionCharts({
-        "type": "msline",
+        "type": "heatmap",
         "renderAt": "chartContainer",
         "width": "1500",
         "height": "800",
         "dataFormat": "jsonurl",
-        "dataSource": "http://localhost:8000/data100.json"
+        "dataSource": "data/json/GNIP_aggregated_top20_hashtag_heatmap_50days.json"
 
   }).render();
 
   var reChart = new FusionCharts({
-      "type": "pie2d",
+      "type": "msline",
       "renderAt": "chartContainer2",
       "width": "1500",
       "height": "800",
       "dataFormat": "jsonurl",
-      "dataSource": "file:///D:/project-test/hashtag_network/top20_hashtag_frequency.json"
+      "dataSource": "data/json/GNIP_aggregated_top20_hashtag_50days.json"
 
   }).render();
 
